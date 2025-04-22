@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .box {
+            background-color: #1c1010; /* White box */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .cards {
+            background-color: #ffcccb; /* Light red background */
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .card-content {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #970e93; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1e0680;
+        }
+        .email, .create {
+            font-size: 1.2rem;
+        }
+        .create {
+            color: #333333;
+        }
+        .account {
+            color: #007BFF; 
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="parent">
+            <div class="cards">
+                <div class="card-content"> 
+                    <a href="index.html">
+                        <ul>
+                            <button role="button">
+                                <span class="email">Continue with Same Email</span>
+                            </button>
+                        </ul>
+                    </a>
+                    <br>
+                    <a href="sign.html">
+                        <p class="create">New to Zomato? <span class="account">Create account</span></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
